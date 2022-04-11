@@ -1,0 +1,41 @@
+.footer {
+  padding: 60px 0;
+  background: #111112;
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  .you-l {
+    list-style: none;
+  }
+  .social {
+    color: black;
+  }
+  li,
+  a {
+    color: #666666;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  & .title {
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    color: #ccc;
+    border-bottom: 1px solid #333;
+  }
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .col-sm-3 {
+    padding-bottom: 2rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}
